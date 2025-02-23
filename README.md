@@ -34,15 +34,17 @@ Following MobileNetV2, we have added additional convolutional layers to further 
 
 These layers are designed to capture more complex patterns and hierarchies in the data, enabling the model to learn representations that are specific to our particular task.
 
+![Screenshot (457)](https://github.com/Shobhit043/Accident_Detection/blob/main/Readme_images/model_architecture.png)
+
 # Early Stopping
 This project utilizes an EarlyStopping callback in TensorFlow to optimize training efficiency. The callback monitors validation accuracy and stops training if no improvement is detected beyond a specified threshold (min_delta=0.01) for 15 consecutive epochs. It helps prevent overfitting and reduces unnecessary computation by restoring the best model weights.
+
 
 ## Model Performance
 ### Training accuracy = 83.55% 
 ### Validation accuracy = 78.95% <br><br>
 
-![Screenshot (456)](https://github.com/Shobhit043/AccidentDetector/assets/155233157/565a758f-1736-4fee-899b-92d92b5292f3)
-![Screenshot (457)](https://github.com/Shobhit043/AccidentDetector/assets/155233157/ef8d3a69-70c3-4ea5-bb7e-e5ceb14181f5)
+![Screenshot (456)](https://github.com/Shobhit043/Accident_Detection/blob/main/Readme_images/Training_plots.png)
 
 
 ## Geopy
@@ -56,11 +58,11 @@ I used it to send message to helplines(though in this project i have only set my
 
 ## Demo
 
-https://github.com/Shobhit043/AccidentDetector/assets/155233157/e9533eb9-14c0-42ef-a1cd-e5def97f8e44
+https://github.com/Shobhit043/Accident_Detection/blob/main/sample_accident_video_for_input/accident_video.mp4
 
 ## SMS MESSAGE
 
-![Screenshot (459)](https://github.com/Shobhit043/AccidentDetector/assets/155233157/9b3e53b2-bb62-47ea-900b-635b81e22ce5)
+![Screenshot (459)](https://github.com/Shobhit043/Accident_Detection/blob/main/Readme_images/sample_sms_message.png)
 
 
 
