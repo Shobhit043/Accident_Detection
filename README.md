@@ -56,7 +56,7 @@ Vonage offers a free SMS API that enables developers to integrate SMS capabiliti
 I used it to send message to helplines(though in this project i have only set my own phone number)
 #### Note: all credential are not present in the code and you must create your own vonage account the send sms succesfully, temp folder is necessary to temporarily store the input video and it also contain Accident-1.mp4 in case you want to test the project
 
-## Demo
+## Sample Accident Video
 
 https://github.com/Shobhit043/Accident_Detection/blob/main/sample_accident_video_for_input/accident_video.mp4
 
